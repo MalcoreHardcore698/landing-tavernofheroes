@@ -68,7 +68,7 @@
 	<div class="page">
 
     <div class="wrap-blocks">
-      <div class="nums">
+      <div class="nums" id="nums">
 
         <div class="owl-carousel">
           <a href="#slide1">
@@ -110,7 +110,7 @@
 
       </div> <!-- END nums -->
 
-      <div class="strings">
+      <div class="strings" id="strings">
         <div class="_stream game-streamed-overwatch">
           <a href="#stream1">
             <div class="top-pan-func">
@@ -250,5 +250,6 @@
   </div>
 	<link rel="stylesheet" href="css/main.min.css">
 	<script src="js/scripts.min.js"></script>
+  <script>$(function() {$('.strings').css({height: $('.nums').height() + 15 + 'px'});});</script>
 </body>
 </html>
