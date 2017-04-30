@@ -5,7 +5,7 @@
 
 	<meta charset="utf-8">
 
-	<title>Tavern of Heroes</title>
+	<title>Title</title>
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,279 +29,87 @@
 </head>
 
 <body>
-  <style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;background: #fff url('img/oval.svg') center center no-repeat;background-size:41px;}
-  </style>
-  <div id="hellopreloader"><div id="hellopreloader_preload"></div></div>
-  <script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};
-  </script>
-  <div class="wrapper"></div>
-  <header>
-    <div class="left-group">
-      <a href="/" class="logo">
-        <img src="img/logo/ToHLogo3.png" alt="">
-      </a>
-      <nav class="head-menu">
-        <ul>
-          <li class="active"><a href="/">Главная<span class="icon-default-menu icon-home-menu"></span></a></li>
-          <li><a href="/">Новости<span class="icon-default-menu icon-news-menu"></span></a></li>
-          <li><a href="/">Стримы<span class="icon-default-menu icon-streams-menu"></span></a></li>
-          <li><a href="/">Медиа<span class="icon-default-menu icon-forum-menu"></span></a></li>
-        </ul>
-      </nav>
-    </div> <!-- END left-group -->
 
-    <div class="right-group">
-      <form action="https://eu.battle.net/account/ru/creation/recruit.html?rid=VCXH5MSCCF">
-        <button class="btn-default btn-play" type="submit">Играть</button>
-      </form>
-      <div class="profile-wrap">
-        <a href="#auth-popup" class="auth-content popup-with-form"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 299.997 299.997" xml:space="preserve"> <path d="M149.996,0C67.157,0,0.001,67.158,0.001,149.997c0,82.837,67.156,150,149.995,150s150-67.163,150-150 C299.996,67.156,232.835,0,149.996,0z M150.453,220.763v-0.002h-0.916H85.465c0-46.856,41.152-46.845,50.284-59.097l1.045-5.587 c-12.83-6.502-21.887-22.178-21.887-40.512c0-24.154,15.712-43.738,35.089-43.738c19.377,0,35.089,19.584,35.089,43.738 c0,18.178-8.896,33.756-21.555,40.361l1.19,6.349c10.019,11.658,49.802,12.418,49.802,58.488H150.453z" fill="#EF4123"/></svg></a>
-      </div>
+	<div class="container-fluid">
 
-      <button class="hamburger hamburger--collapse" type="button">
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-        </span>
-      </button>
-    </div> <!-- END right-group -->
-  </header>
-  <div class="page">
-    <div class="wrap-blocks">
-      <div class="primary-content">
+		<div class="row primary-content">
+			<div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 item important-news">
 
-        <div class="slider">
-          <div class="owl-carousel">
+				<div class="row slider">
+					<div class="col item">
+						<img class="img-responsive" src="img/bg/img2.png" alt="Start HTML5 Template">
+					</div>
+				</div>
+				<div class="row another-news">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 item">
+						<img class="img-responsive" src="img/bg/img1.png" alt="Start HTML5 Template">
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 item">
+						<img class="img-responsive" src="img/bg/img2.png" alt="Start HTML5 Template">
+					</div>
+				</div>
 
-            <a href="#slide1">
-              <div class="_new_slider" style="background: url('img/bg/img1.png'); background-size: cover; background-position: center;">
-                <div class="title"><h1>Вступительный ролик Ханамура</h1></div>
-                <div class="date"><span class="icon-date"></span>26 апр.</div>
-              </div>
-            </a>
+			</div>
 
-            <a href="#slide2">
-              <div class="_new_slider" style="background: url('img/bg/img2.png'); background-size: cover; background-position: center;">
-                <div class="title"><h1>Новый герой D.va</h1></div>
-                <div class="date"><span class="icon-date"></span>26 апр.</div>
-              </div>
-            </a>
+			<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 item popular-streams">
+					
+				<div class="row streams">
+					<div class="col-xl-12 col-lg-12 col-md-4 col-sm-4 col-12 item">
+						<div class="row rw">
+							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-6 item">
+								<img class="img-responsive" src="img/bg/stream-img.png" alt="Start HTML5 Template">
+							</div>
+							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-6 item">
+								<img class="img-responsive" src="img/bg/stream-img1.png" alt="Start HTML5 Template">
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-12 col-lg-12 col-md-4 col-sm-4 col-12 item">
+						<div class="row rw">
+							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-6 item">
+								<img class="img-responsive" src="img/bg/stream-img2.png" alt="Start HTML5 Template">
+							</div>
+							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-6 item">
+								<img class="img-responsive" src="img/bg/stream-img3.png" alt="Start HTML5 Template">
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-12 col-lg-12 col-md-4 col-sm-4 col-12 item">
+						<div class="row rw">
+							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-6 item">
+								<img class="img-responsive" src="img/bg/stream-img.png" alt="Start HTML5 Template">
+							</div>
+							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-6 item">
+								<img class="img-responsive" src="img/bg/stream-img1.png" alt="Start HTML5 Template">
+							</div>
+						</div>
+					</div>
+					<div class="row wrap-btn-row">
+						<a href="#allStream" class="btn-long">
+							<span>Все стримы</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 
-            <a href="#slide3" style="background: url('img/bg/img1.png'); background-size: cover; background-position: center;">
-              <div class="_new_slider" style="background: url('img/bg/img3.png'); background-size: cover; background-position: center;">
-                <div class="title"><h1>Событие Ханамура поединок</h1></div>
-                <div class="date"><span class="icon-date"></span>26 апр.</div>
-              </div>
-            </a>
+		<div class="row secondary-content">	
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 item">
+				<img class="img-responsive" src="img/bg/stream-img1.png" alt="Start HTML5 Template">
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 item">
+				<img class="img-responsive" src="img/bg/new3.png" alt="Start HTML5 Template">
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 item">
+				<img class="img-responsive" src="img/bg/new2.png" alt="Start HTML5 Template">
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 item">
+				<img class="img-responsive" src="img/bg/img1.png" alt="Start HTML5 Template">
+			</div>
+		</div>
 
-          </div>
-        </div>
-
-        <div class="flex-right">
-
-          <div class="streams">
-            <a href="#stream1" class="_stream" style="background: url('img/bg/stream-img1.png'); background-size: cover; background-position: center;">
-              <div class="top-pan-func">
-                <div class="views"><span class="icon-views"></span>13245</div>
-              </div>
-              <h4 class="stream-user">Pashka</h4>
-            </a>
-
-            <a href="#stream2" class="_stream" style="background: url('img/bg/stream-img2.png'); background-size: cover; background-position: center;">
-              <div class="top-pan-func">
-                <div class="views"><span class="icon-views"></span>7245</div>
-              </div>
-              <h4 class="stream-user">Iiigor</h4>
-            </a>
-
-            <a href="#stream3" class="_stream" style="background: url('img/bg/stream-img3.png'); background-size: cover; background-position: center;">
-              <div class="top-pan-func">
-                <div class="views"><span class="icon-views"></span>5245</div>
-              </div>
-              <h4 class="stream-user">Smith</h4>
-            </a>
-
-            <a href="#stream4" class="_stream" style="background: url('img/bg/stream-img.png'); background-size: cover; background-position: center;">
-              <div class="top-pan-func">
-                <div class="views"><span class="icon-views"></span>945</div>
-              </div>
-              <h4 class="stream-user">HappyZerg</h4>
-            </a>
-
-            <a href="#stream5" class="_stream" style="background: url('img/bg/stream-img1.png'); background-size: cover; background-position: center;">
-              <div class="top-pan-func">
-                <div class="views"><span class="icon-views"></span>285</div>
-              </div>
-              <h4 class="stream-user">Cage</h4>
-            </a>
-            <a href="#stream6" class="_stream" style="background: url('img/bg/stream-img2.png'); background-size: cover; background-position: center;">
-              <div class="top-pan-func">
-                <div class="views"><span class="icon-views"></span>15</div>
-              </div>
-              <h4 class="stream-user">Chuvachok</h4>
-            </a>
-          </div>
-
-          <a href="#stream1" class="btn-default btn-long-white">Все стримеры<span class="icon-gamepad-dark"></span></a>
-
-        </div> <!-- END flex-right -->
-      </div> <!-- END primary-content -->
-
-      <div class="secondary-content">
-
-
-        <div class="new-separately">
-
-          <div class="flex-wrap-n-s">
-
-            <a href="#new1">
-              <div class="_new-separately">
-                <div class="title"><h1>Поединок в Ханамуре</h1></div>
-                <div class="contain-img">
-                  <img src="img/bg/new1.png" alt="First slide">
-                </div>
-                <div class="date"><span class="icon-date"></span>26 апр.</div>
-              </div>
-            </a>
-
-            <a href="#new2">
-              <div class="_new-separately">
-                <div class="title"><h1>Испытание Нексуса 2.0</h1></div>
-                <div class="contain-img">
-                  <img src="img/bg/new2.png" alt="First slide">
-                </div>
-                <div class="date"><span class="icon-date"></span>26 апр.</div>
-              </div>
-            </a>
-
-          </div>
-
-          <div class="flex-wrap-n-s">
-
-            <a href="#new3">
-              <div class="_new-separately">
-                <div class="title"><h1>Мегакомплекты: 20 героев в подарок!</h1></div>
-                <div class="contain-img">
-                  <img src="img/bg/new3.png" alt="First slide">
-                </div>
-                <div class="date"><span class="icon-date"></span>26 апр.</div>
-              </div>
-            </a>
-
-            <a href="#new4">
-              <div class="_new-separately">
-                <div class="title"><h1>Еженедельная коллекция</h1></div>
-                <div class="contain-img">
-                  <img src="img/bg/new4.png" alt="First slide">
-                </div>
-                <div class="date"><span class="icon-date"></span>26 апр.</div>
-              </div>
-            </a>
-
-          </div>
-
-        </div> <!-- END new-separately -->
-
-
-      </div> <!-- END secondary-content -->
-    </div>
-    <div class="flex-wrap-nv">
-      <section class="news-section">
-        <article>
-          <img src="img/img-article.jpg" alt="Article Image">
-          <h3><a href="#aricle1">Гэндзи: способности и таланты</a></h3>
-          <p>Будучи беззаботным потомком клана Шимада, Гэндзи был серьёзно ранен собственным братом за то, что отказался принимать участие в преступных делах семьи. Когда Overwatch оснастили тело Гэндзи киберимплантами, он начал свой собственный путь, чтобы сражаться за правое дело.</p>
-          <div class="bottom-pan-func">
-            <div class="date"><span class="icon-date"></span>18.04.17</div>
-            <div class="more">
-              <a href="#moreInfoAboutArticle">Подробнее</a>
-            </div>
-          </div>
-        </article>
-        <article>
-          <img src="img/img-slide1.jpg" alt="Article Image">
-          <h3><a href="#article2">Хроники Heroes of the Storm</a></h3>
-          <p>С выхода Heroes of the Storm в игре уже появилось множество новых элементов. Сегодня мы выводим Heroes на новый уровень: более мощная система прогресса, контейнеры с наградами, принципиально новое поле боя и, конечно, новые герои, которые идут наперекор привычным правилам.</p>
-          <div class="bottom-pan-func">
-            <div class="date"><span class="icon-date"></span>18.04.17</div>
-            <div class="more">
-              <a href="#moreInfoAboutArticle">Подробнее</a>
-            </div>
-          </div>
-        </article>
-        <article>
-          <img src="img/img-slide2.jpg" alt="Article Image">
-          <h3><a href="#article3">Конкурс &laquo;Нексус в стиле Casual&raquo;</a></h3>
-          <p>&laquo;Дорогой дневник! Давно хотел написать, что для меня самое невероятное в Нексусе — далеко не битвы, хотя и в них есть на что посмотреть. Даже самому впечатляющему сражению не сравниться с тем, во что превращается Нексус после боя. Наверное устав от многочисленных стычек, тяжести лат и топоров, Призванные ведут &laquo;обычную&raquo; жизнь, стараясь перещеголять друг друга в стиле и красоте одеяний. Будни Нексуса — это время, когда герои снимают свою броню, а мурлоки чистят чешуйки от слизи...&raquo;
-          <br>— Эй, Утер! Что ты снова царапаешь в своей книжонке? Тут Кассия кабана запекла!
-          <br>— Что? — паладин поспешно захлопнул книгу и поднялся на ноги. — Кабана? Целого? Уже бегу!</p>
-          <div class="bottom-pan-func">
-            <div class="date"><span class="icon-date"></span>18.04.17</div>
-            <div class="more">
-              <a href="#moreInfoAboutArticle">Подробнее</a>
-            </div>
-          </div>
-        </article>
-        <button class="btn-default btn-long-white">Все новости<span class="icon-gamepad-dark"></span></button>
-      </section>
-      <section class="video-section">
-        <div class="flex-row">
-          <div class="video">
-            <a href="#video1">
-              <div class="date"><span class="icon-date"></span>18.04.17</div>
-              <div class="image-video">
-                <img src="img/bg-video.png" alt="">
-              </div>
-              <h4>Хроники Overwatch - Ориса (История персонажа)</h4>
-            </a>
-          </div>
-          <div class="video">
-            <a href="#video2">
-              <div class="date"><span class="icon-date"></span>18.04.17</div>
-              <div class="image-video">
-                <img src="img/bg-video1.jpg" alt="">
-              </div>
-              <h4>Хроники Overwatch - Мей (История персонажа)</h4>
-            </a>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="video">
-            <a href="#video3">
-              <div class="date"><span class="icon-date"></span>18.04.17</div>
-              <div class="image-video">
-                <img src="img/bg-video2.jpg" alt="">
-              </div>
-              <h4>Гэндзи и Ханамура | Интервью с Тони Сю от Tavern of Heroes</h4>
-            </a>
-          </div>
-          <div class="video">
-            <a href="#video4">
-              <div class="date"><span class="icon-date"></span>18.04.17</div>
-              <div class="image-video">
-                <img src="img/bg-video2.jpg" alt="">
-              </div>
-              <h4>Гэндзи и Ханамура | Интервью с Тони Сю от Tavern of Heroes</h4>
-            </a>
-          </div>
-        </div>
-        <button class="btn-default btn-long-white">Все видео<span class="icon-gamepad-dark"></span></button>
-      </section>
-    </div>
-  </div>
-  <footer>
-    <a href="/" class="logo">
-      <img src="img/logo/ToHLogo3.png" alt="">
-    </a>
-    <nav class="social-links">
-      <ul>
-        <li><a href="https://vk.com/tavernofoverwatch" class="icon-social vk-icon"></a></li>
-        <li><a href="https://discord.gg/BArdrG7" class="icon-social discord-icon"></a></li>
-        <li><a href="https://twitter.com/tavernofheroes" class="icon-social twitter-icon"></a></li>
-        <li><a href="https://www.youtube.com/user/tavernofheroes?sub_confirmation=1" class="icon-social youtube-icon"></a></li>
-      </ul>
-    </nav>
-  </footer>
-  
+	</div>
+	
 	<link rel="stylesheet" href="css/main.min.css">
 	<script src="js/scripts.min.js"></script>
 </body>
