@@ -30,20 +30,47 @@
 
 <body>
 	<div id="my-page">
-		<nav id="my-menu">
-		   <ul>
-		      <li class="selected">Website</li>
-		      <li><a href="/">Home</a></li>
-		      <li><a href="/about/">About us</a></li>
-		      <li><a href="/contact/">Contact</a></li>
-		   </ul>
-		</nav>
 		<div id="my-header">
-			<button id="mmenu-icon" class="hamburger hamburger--collapse" type="button">
-			     <span class="hamburger-box">
-			         <span class="hamburger-inner"></span>
-			     </span>
-			</button>
+			<nav id="mobile-menu">
+				<ul>
+					<li class="selected">Tavern of Heroes</li>
+					<li><a href="/">Главная</a></li>
+					<li><a href="#news">Новости</a></li>
+					<li><a href="#streams">Стримы</a></li>
+					<li><a href="#media">Медиа</a></li>
+				</ul>
+			</nav>
+			<header>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 item">
+							<nav id="desktop-menu">
+								<ul>
+									<li class="selected">Tavern of Heroes</li>
+									<li><a href="/">Главная</a></li>
+									<li><a href="#news">Новости</a></li>
+									<li><a href="#streams">Стримы</a></li>
+									<li><a href="#media">Медиа</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 item">
+							<nav class="mobile-tailings-menu">
+								<ul>
+									<li><button>Играть</button></li>
+									<li>
+										<a href="#mobile-menu" id="mmenu-icon" class="hamburger hamburger--collapse" type="button">
+										     <span class="hamburger-box">
+										         <span class="hamburger-inner"></span>
+										     </span>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</header>
 		</div>
 		<div id="my-content">
 			<div class="container-fluid">
