@@ -13,7 +13,7 @@
 
 	<meta property="og:image" content="path/to/image.jpg">
 	<link rel="shortcut icon" href="/tavernofheroes_reborn/img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="/tavernofheroes_reborn/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" href="/tavernofheroes_reborn/img/favicon/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="/tavernofheroes_reborn/img/favicon/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="/tavernofheroes_reborn/img/favicon/apple-touch-icon-114x114.png">
 
@@ -29,7 +29,7 @@
 </head>
 
 <body>
-	<style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;background: #fff url('../img/oval.svg') center center no-repeat;background-size:41px;}
+	<style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;background: #fff url('/tavernofheroes_reborn/img/oval.svg') center center no-repeat;background-size:41px;}
 	</style>
 	<div id="hellopreloader"><div id="hellopreloader_preload"></div></div>
 	<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};
@@ -80,9 +80,165 @@
 		</div>
 		<div id="my-content">
 			<div class="container">
+				<div class="row nav-panel">
+					<div class="col-10">
+						<div class="row">
+							<div class="back-btn">
+								<a href="#back" class="nav-panel-btn-orange">
+									<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="459px" height="459px" viewBox="0 0 459 459" xml:space="preserve"><path d="M178.5,140.25v-102L0,216.75l178.5,178.5V290.7c127.5,0,216.75,40.8,280.5,130.05C433.5,293.25,357,165.75,178.5,140.25z" class="path1"/></path><style>.path1 {fill: #fff;transition: fill .3s ease}a:hover .path1{fill: #EF4123}</style></svg>
+								</a>
+							</div>
+							<div class="nav-pages">
+								<a href="#page?id1" class="nav-panel-btn-orange">1</a>
+								<a href="#page?id2" class="nav-panel-btn-orange">2</a>
+								<a href="#page?id3" class="nav-panel-btn-orange">3</a>
+								<a href="#page?id204" class="nav-panel-btn-orange">204</a>
+								<a href="#page?next" class="nav-panel-btn-orange">СЛедующая</a>
+							</div>
+							<div class="nav-dir">
+								<nav>
+									<ul>
+										<li><a href="/tavernofheroes_reborn/" class="nav-dir-link">Главная</a></li>
+										<li class="selected"><a href="/tavernofheroes_reborn/" class="nav-dir-link">Новости</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="col-2">
+						<form action="search.php" method="POST">
+							<input type="search" placeholder="Поиск">
+							<button type="submit" class="btn-search">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 250.313 250.313" xml:space="preserve" width="512px" height="512px"><path d="M244.186,214.604l-54.379-54.378c-0.289-0.289-0.628-0.491-0.93-0.76   c10.7-16.231,16.945-35.66,16.945-56.554C205.822,46.075,159.747,0,102.911,0S0,46.075,0,102.911   c0,56.835,46.074,102.911,102.91,102.911c20.895,0,40.323-6.245,56.554-16.945c0.269,0.301,0.47,0.64,0.759,0.929l54.38,54.38   c8.169,8.168,21.413,8.168,29.583,0C252.354,236.017,252.354,222.773,244.186,214.604z M102.911,170.146   c-37.134,0-67.236-30.102-67.236-67.235c0-37.134,30.103-67.236,67.236-67.236c37.132,0,67.235,30.103,67.235,67.236   C170.146,140.044,140.043,170.146,102.911,170.146z" class="path2"/></path><style>.path2 {fill: #fff}</style></svg>
+							</button>
+						</form>
+					</div>
+				</div>
+				<div class="row main-content">
+					<div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 item">
+						<div class="row">
+							<article>
+					          <img src="/tavernofheroes_reborn/img/bg/img-article.jpg" alt="Article Image">
+					          <h3><a href="#aricle1">Гэндзи: способности и таланты</a></h3>
+					          <p>Будучи беззаботным потомком клана Шимада, Гэндзи был серьёзно ранен собственным братом за то, что отказался принимать участие в преступных делах семьи. Когда Overwatch оснастили тело Гэндзи киберимплантами, он начал свой собственный путь, чтобы сражаться за правое дело.</p>
+					          <div class="bottom-pan-func">
+					            <div class="date"><span class="icon-date"></span>18.04.17</div>
+					            <div class="more">
+					              <a href="#moreInfoAboutArticle">Подробнее</a>
+					            </div>
+					          </div>
+					        </article>
+						</div>
+						<div class="row">
+							<article>
+					          <img src="/tavernofheroes_reborn/img/bg/img-article.jpg" alt="Article Image">
+					          <h3><a href="#aricle1">Гэндзи: способности и таланты</a></h3>
+					          <p>Будучи беззаботным потомком клана Шимада, Гэндзи был серьёзно ранен собственным братом за то, что отказался принимать участие в преступных делах семьи. Когда Overwatch оснастили тело Гэндзи киберимплантами, он начал свой собственный путь, чтобы сражаться за правое дело.</p>
+					          <div class="bottom-pan-func">
+					            <div class="date"><span class="icon-date"></span>18.04.17</div>
+					            <div class="more">
+					              <a href="#moreInfoAboutArticle">Подробнее</a>
+					            </div>
+					          </div>
+					        </article>
+						</div>
+						<div class="row">
+							<article>
+					          <img src="/tavernofheroes_reborn/img/bg/img-article.jpg" alt="Article Image">
+					          <h3><a href="#aricle1">Гэндзи: способности и таланты</a></h3>
+					          <p>Будучи беззаботным потомком клана Шимада, Гэндзи был серьёзно ранен собственным братом за то, что отказался принимать участие в преступных делах семьи. Когда Overwatch оснастили тело Гэндзи киберимплантами, он начал свой собственный путь, чтобы сражаться за правое дело.</p>
+					          <div class="bottom-pan-func">
+					            <div class="date"><span class="icon-date"></span>18.04.17</div>
+					            <div class="more">
+					              <a href="#moreInfoAboutArticle">Подробнее</a>
+					            </div>
+					          </div>
+					        </article>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 item video-content">
+						<div class="row">
+							<div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 item">
 
-				<h2>Скоро!</h2>
+								<div class="row">
+									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item">
+										<a href="#video1" class="video">
+											<img src="/tavernofheroes_reborn/img/bg/bg-video.png" alt="">
+											<span class="layout-desc">
+												<div class="date"><span class="icon-date"></span>18.04.17</div>
+												<h4>Хроники Overwatch - Ориса (История персонажа)</h4>
+											</span>
+										</a>
+									</div>
+									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item">
+										<a href="#video1" class="video">
+											<img src="/tavernofheroes_reborn/img/bg/bg-video.png" alt="">
+											<span class="layout-desc">
+												<div class="date"><span class="icon-date"></span>18.04.17</div>
+												<h4>Хроники Overwatch - Ориса (История персонажа)</h4>
+											</span>
+										</a>
+									</div>
+								</div>
 
+							</div>
+							<div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 item">
+
+								<div class="row">
+									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item">
+										<a href="#video1" class="video">
+											<img src="/tavernofheroes_reborn/img/bg/bg-video.png" alt="">
+											<span class="layout-desc">
+												<div class="date"><span class="icon-date"></span>18.04.17</div>
+												<h4>Хроники Overwatch - Ориса (История персонажа)</h4>
+											</span>
+										</a>
+									</div>
+									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item">
+										<a href="#video1" class="video">
+											<img src="/tavernofheroes_reborn/img/bg/bg-video.png" alt="">
+											<span class="layout-desc">
+												<div class="date"><span class="icon-date"></span>18.04.17</div>
+												<h4>Хроники Overwatch - Ориса (История персонажа)</h4>
+											</span>
+										</a>
+									</div>
+								</div>
+
+							</div>
+							<div class="col-xl-12 col-lg-12 col-md-4 col-sm-12 col-12 item">
+
+							</div>
+						</div>
+						<div class="row c-padding">
+							<a href="#allStream" class="btn-long m-margin">
+								<div class="wrap-btn-row">
+									<span class="title-btn-long">Все видео
+										<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 310 310" xml:space="preserve"><path id="XMLID_823_" d="M297.917,64.645c-11.19-13.302-31.85-18.728-71.306-18.728H83.386c-40.359,0-61.369,5.776-72.517,19.938 C0,79.663,0,100.008,0,128.166v53.669c0,54.551,12.896,82.248,83.386,82.248h143.226c34.216,0,53.176-4.788,65.442-16.527 C304.633,235.518,310,215.863,310,181.835v-53.669C310,98.471,309.159,78.006,297.917,64.645z M199.021,162.41l-65.038,33.991 c-1.454,0.76-3.044,1.137-4.632,1.137c-1.798,0-3.592-0.484-5.181-1.446c-2.992-1.813-4.819-5.056-4.819-8.554v-67.764 c0-3.492,1.822-6.732,4.808-8.546c2.987-1.814,6.702-1.938,9.801-0.328l65.038,33.772c3.309,1.718,5.387,5.134,5.392,8.861 C204.394,157.263,202.325,160.684,199.021,162.41z"/><style>svg path {fill: #333;transition: fill .3s ease}.wrap-btn-row:hover svg path{fill: #fff}</style></svg>
+									</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="row nav-panel">
+					<div class="col">
+						<div class="row">
+							<div class="back-btn">
+								<a href="#back" class="nav-panel-btn-orange">
+									<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="459px" height="459px" viewBox="0 0 459 459" xml:space="preserve"><path d="M178.5,140.25v-102L0,216.75l178.5,178.5V290.7c127.5,0,216.75,40.8,280.5,130.05C433.5,293.25,357,165.75,178.5,140.25z" class="path1"/></path><style>.path1 {fill: #fff;transition: fill .3s ease}a:hover .path1{fill: #EF4123}</style></svg>
+								</a>
+							</div>
+							<div class="nav-pages">
+								<a href="#page?id1" class="nav-panel-btn-orange">1</a>
+								<a href="#page?id2" class="nav-panel-btn-orange">2</a>
+								<a href="#page?id3" class="nav-panel-btn-orange">3</a>
+								<a href="#page?id204" class="nav-panel-btn-orange">204</a>
+								<a href="#page?next" class="nav-panel-btn-orange">СЛедующая</a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div id="my-footer">
