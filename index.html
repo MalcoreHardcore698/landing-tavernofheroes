@@ -32,7 +32,7 @@
 	<div id="hellopreloader"><div id="hellopreloader_preload" style="display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;background: #fff url('img/oval.svg') center center no-repeat;background-size:41px;"></div></div><script>var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script>
 	<div id="my-page">
 		<div id="my-header">
-			<nav id="mobile-menu">
+			<nav id="mobile-menu" class="Fixed">
 				<ul>
 					<li class="selected"><a href="/tavernofheroes_reborn/">Главная</a></li>
 					<li><a href="/tavernofheroes_reborn/view/news">Новости</a></li>
@@ -41,30 +41,28 @@
 				</ul>
 			</nav>
 			<header>
-				<div class="container-fluid clear-align-top-line">
-					<div class="row clear-align-top-line top-line">
+				<div class="container clear-align-top-line">
+					<div class="row clear-align-top-line top-line Fixed">
 						<div class="col">
 							<div class="logo">
 								<a href="/"><img src="img/logo/ToHLogo2.3.png" alt="Logo Tavern of Heroes"></a>
 							</div>
 						</div>
-						<div class="col">
+						<div class="col" style="flex: 2 0 0;">
 							<nav class="mobile-tailings-menu">
 								<ul>
-									<li><a href="https://eu.battle.net/account/ru/creation/recruit.html?rid=VCXH5MSCCF" class="btn-default btn-orange"><span class="gamepad-icon"></span></a></li>
-									<li>
-										<a href="#mobile-menu" id="mmenu-icon" class="hamburger hamburger--collapse">
-										     <span class="hamburger-box">
-										         <span class="hamburger-inner"></span>
-										     </span>
-										</a>
-									</li>
+									<li class="ico-d"><a href="https://vk.com/tavernofoverwatch"><span class="icon-social vk-icon"></span></a></li>
+									<li class="ico-d"><a href="https://discord.gg/BArdrG7"><span class="icon-social discord-icon"></span></a></li>
+									<li class="ico-d"><a href="https://twitter.com/tavernofheroes"><span class="icon-social twitter-icon"></span></a></li>
+									<li class="ico-d"><a href="https://www.youtube.com/user/tavernofheroes?sub_confirmation=1"><span class="icon-social youtube-icon"></span></a></li>
+									<li class="play-li"><a href="https://eu.battle.net/account/ru/creation/recruit.html?rid=VCXH5MSCCF"><span class="icon-social gamepad-icon"></span></a></li>
+									<li class="hamburger-d"><a href="#mobile-menu" id="mmenu-icon" class="hamburger hamburger--collapse"><span class="hamburger-box"><span class="hamburger-inner"></span></span></a></li>
 								</ul>
 							</nav>
 						</div>
 					</div>
 				</div>
-				<div class="container">
+				<div class="container"  style="padding-right: 8px;">
 					<div class="row">
 						<div class="col-12">
 							<nav id="desktop-menu">
@@ -379,77 +377,100 @@
 						</div>
 						<!--  КОНЕЦ секции НОВОСТИ  -->
 					</div>
-					<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 item video-content">
+					<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 item">
 						<!--  НАЧАЛО секции ВИДЕО  -->
-						<h1 class="title-s"><a href="#video">Видео</a></h1>
-						<div class="row">
-							<div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 item">
-
-								<div class="row">
-									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item">
-										<a href="#video1" class="video">
-											<img src="img/bg/bg-video.png" alt="">
-											<div class="layout-desc">
-												<div class="info-string">
-													<ul>
-														<li class="date">26.05.17</li>
-														<li class="author">Tavern of Heroes</li>
-													</ul>
-												</div>
-												<h4>Хроники Overwatch - Ориса (История персонажа)</h4>
+						<div class="video-content">
+							<h1 class="title-s"><a href="#video">Видео</a></h1>
+							<div class="row">
+								<div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-12 item">
+									<a href="#video1" class="video">
+										<img src="img/bg/bg-video.png" alt="">
+										<div class="layout-desc">
+											<div class="info-string">
+												<ul>
+													<li class="date">26.05.17</li>
+													<li class="author">Tavern of Heroes</li>
+												</ul>
 											</div>
-										</a>
-									</div>
-									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item">
-										<a href="#video1" class="video">
-											<img src="img/bg/bg-video.png" alt="">
-											<div class="layout-desc">
-												<div class="info-string">
-													<ul>
-														<li class="date">26.05.17</li>
-														<li class="author">Tavern of Heroes</li>
-													</ul>
-												</div>
-												<h4>Хроники Overwatch - Ориса (История персонажа)</h4>
-											</div>
-										</a>
-									</div>
+											<h4>Хроники Overwatch - Ориса (История персонажа)</h4>
+										</div>
+									</a>
 								</div>
-
+								<div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-12 item">
+									<a href="#video1" class="video">
+										<img src="img/bg/bg-video.png" alt="">
+										<div class="layout-desc">
+											<div class="info-string">
+												<ul>
+													<li class="date">26.05.17</li>
+													<li class="author">Tavern of Heroes</li>
+												</ul>
+											</div>
+											<h4>Хроники Overwatch - Ориса (История персонажа)</h4>
+										</div>
+									</a>
+								</div>
+								<div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-12 item">
+									<a href="#video1" class="video">
+										<img src="img/bg/bg-video.png" alt="">
+										<div class="layout-desc">
+											<div class="info-string">
+												<ul>
+													<li class="date">26.05.17</li>
+													<li class="author">Tavern of Heroes</li>
+												</ul>
+											</div>
+											<h4>Хроники Overwatch - Ориса (История персонажа)</h4>
+										</div>
+									</a>
+								</div>
+								<div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-12 item">
+									<a href="#video1" class="video">
+										<img src="img/bg/bg-video.png" alt="">
+										<div class="layout-desc">
+											<div class="info-string">
+												<ul>
+													<li class="date">26.05.17</li>
+													<li class="author">Tavern of Heroes</li>
+												</ul>
+											</div>
+											<h4>Хроники Overwatch - Ориса (История персонажа)</h4>
+										</div>
+									</a>
+								</div>
 							</div>
-							<div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 item">
-
-								<div class="row">
-									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item">
-										<a href="#video1" class="video">
-											<img src="img/bg/bg-video.png" alt="">
-											<div class="layout-desc">
-												<div class="info-string">
-													<ul>
-														<li class="date">26.05.17</li>
-														<li class="author">Tavern of Heroes</li>
-													</ul>
-												</div>
-												<h4>Хроники Overwatch - Ориса (История персонажа)</h4>
+						</div>
+						<div class="video-content">
+							<h1 class="title-s"><a href="#video">Другая секция</a></h1>
+							<div class="row">
+								<div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-12 item">
+									<a href="#video1" class="video">
+										<img src="img/bg/bg-video.png" alt="">
+										<div class="layout-desc">
+											<div class="info-string">
+												<ul>
+													<li class="date">26.05.17</li>
+													<li class="author">Tavern of Heroes</li>
+												</ul>
 											</div>
-										</a>
-									</div>
-									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item">
-										<a href="#video1" class="video">
-											<img src="img/bg/bg-video.png" alt="">
-											<div class="layout-desc">
-												<div class="info-string">
-													<ul>
-														<li class="date">26.05.17</li>
-														<li class="author">Tavern of Heroes</li>
-													</ul>
-												</div>
-												<h4>Хроники Overwatch - Ориса (История персонажа)</h4>
-											</div>
-										</a>
-									</div>
+											<h4>Хроники Overwatch - Ориса (История персонажа)</h4>
+										</div>
+									</a>
 								</div>
-
+								<div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-12 item">
+									<a href="#video1" class="video">
+										<img src="img/bg/bg-video.png" alt="">
+										<div class="layout-desc">
+											<div class="info-string">
+												<ul>
+													<li class="date">26.05.17</li>
+													<li class="author">Tavern of Heroes</li>
+												</ul>
+											</div>
+											<h4>Хроники Overwatch - Ориса (История персонажа)</h4>
+										</div>
+									</a>
+								</div>
 							</div>
 						</div>
 						<!--  КОНЕЦ секции ВИДЕО  -->
