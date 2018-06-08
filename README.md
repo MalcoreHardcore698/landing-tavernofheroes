@@ -5,5 +5,6 @@
 > python manage.py runserver
 
 - Чтобы зайти в административную часть сайта, в URL-адресе введите localhost:8000/admin
-> Login: admin
-> Password: malcore1999
+> **Login: admin**
+
+> **Password: malcore1999**
